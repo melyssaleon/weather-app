@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkyWorld</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1> 🌏 SkyWorld </h1>
+  <p>Search weather by city</p>
+
+  <input id="city" placeholder="Enter city name">
+  <button onclick="getWeather()">Search</button>
+
+  <div class="nav">
+    <button onclick="showTemp()">Temperature</button>
+    <button onclick="showCondition()">Condition</button>
+  </div>
+
+  <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
